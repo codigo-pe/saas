@@ -1,0 +1,23 @@
+//GLOBALS
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: $font-base;
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    font-family: $font-family-global;
+    font-size: $font-size;
+    color: $color-primary;
+    background-color: $color-global;
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+}

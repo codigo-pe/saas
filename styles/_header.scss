@@ -1,0 +1,21 @@
+.header {
+    background-color: $color-global;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding-header;
+    border-bottom: $border-color;
+    //@include border-radius(20px);
+
+    .nav-main {
+        @include font-size("medium");
+        ul {
+            display: flex;
+        }
+
+        li {
+            margin-left: 25px;
+        }
+            
+    }
+}

@@ -1,0 +1,36 @@
+// VARIABLES
+//colors
+$color-primary: #5d5d5d;
+$color-secondary: #0d3964;
+$color-global: white;
+$color-link: #008000;
+$color-hover-user: #3dc154;
+$color-hover-contact: black;
+
+//fonts
+$font-measure: rem;
+$font-family-global: arial;
+$font-family-primary: helvetica;
+$font-base: 62.5%;
+$font-size: 1.3#{$font-measure};
+
+//Borders
+$border-color: 1px solid #d8d8d8;
+$border-color-hover: 1px solid #3dc154;
+$border-color-hover-user: 4px solid #3dc154;
+$border-radius: 10%;
+$border-radius-img: 100%;
+$box-shadow: 0 2px 8px 1px rgba(0, 0, 0, 0.5);
+
+//header
+$padding-header: 15px;
+
+//aside
+$padding-aside: 15px;
+$tittle-font-size: 21 px;
+
+//cards
+$padding-cards: 20px;
+
+//footer
+$padding-footer: 20px;

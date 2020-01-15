@@ -1,0 +1,15 @@
+.aside {
+    padding: $padding-aside;
+    border-right: $border-color;
+    h2{
+        color: $color-secondary;
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    li {
+        width: 80%;
+        height: 30px;
+    }
+
+}

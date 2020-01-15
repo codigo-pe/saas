@@ -1,0 +1,17 @@
+@mixin border-radius($value) {
+    border-radius: $value;
+}
+
+@mixin font-size($size) {
+    @if($size == "small") {
+        font-size: 1.1rem;
+    }
+
+    @if($size == "medium") {
+        font-size: 1.4rem;
+    }
+
+    @if ($size == "large") {
+        font-size: 1.8rem;
+    }
+}

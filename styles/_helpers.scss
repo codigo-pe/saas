@@ -1,0 +1,19 @@
+$sizes: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20;
+
+@each $size in $sizes {
+    .fsize-#{$size} {
+        font-size: #{$size}px;
+    }
+}
+
+$color-branding: (
+    "primary": red,
+    "secondary": blue,
+    "complementary": green
+);
+
+@each $key, $value in $color-branding {
+    .color-#{$key} {
+        color: $value
+    }
+}

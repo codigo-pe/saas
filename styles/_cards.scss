@@ -3,26 +3,38 @@
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    .card {
+    h2{
+        font-size: 14px;
+        margin: 5px;
+    }
+    h3{
+        font-size: 11px;
+    }
+    p{
+        font-size: 12px;
+    }
+    #card {
         padding: 15px;
         border: $border-color;
-        
         border-radius: $border-radius;
         text-align: center;
-        .card-user{            
+        height: $height-card;
+        #flecha-detalle{            
+            float: right;
+            display:none;
+        }
+        #flecha-atras{            
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        #card-user{            
             img{
                 border-radius: $border-radius-img;
             }
             margin: 10px;
-            h2{
-                font-size: 14px;
-                margin: 5px;
-            }
-            h3{
-                font-size: 11px;
-            }
+            padding-top: 20px; 
         }
-        .card-contact{            
+        #card-contact{            
             margin-top: 30px;
             ul{
                 display: flex;
@@ -37,17 +49,32 @@
                 display: none;
             }
         }
+        #card-detail{
+            display:none;
+            .boton-ver-perfil{
+                background-color: #3dc154;
+                border: none;
+                color:white;
+                height: 33px;
+                width: 120px;
+                border-radius: 4px;
+                margin-top: 80px;
+            }
+        }
         &:hover{
+            #flecha-detalle{
+                display:block;
+            }
             border: $border-color-hover;           
             box-shadow: $box-shadow;
-            .card-user{
+            #card-user{
                 img{
                     border: $border-color-hover-user;
                 }
                 color: $color-hover-user;
                 font-weight: bolder;                
             }
-            .card-contact{
+            #card-contact{
                 a{
                     color: black;
                 }
